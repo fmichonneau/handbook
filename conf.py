@@ -39,8 +39,6 @@ source_parsers = {
 source_suffix = ['.rst', '.md']
 
 
-
-
 # If your documentation needs a minimal Sphinx version, state it here.
 #
 # needs_sphinx = '1.0'
@@ -86,7 +84,7 @@ language = None
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This patterns also effect to html_static_path and html_extra_path
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', 'drafts']
+exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', 'drafts', 'email_templates', 'data']
 
 # The name of the Pygments (syntax highlighting) style to use.
 pygments_style = 'sphinx'
